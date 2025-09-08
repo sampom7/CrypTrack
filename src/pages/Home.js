@@ -15,6 +15,7 @@ const Home = () => {
             <div className="bg-gray-300 fixed w-screen h-screen -z-10" />
             <Logo />
             <Navigation />
+
             <Outlet />
           </main>
         </StorageProvider>
