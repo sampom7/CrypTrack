@@ -36,7 +36,7 @@ const PerPage = () => {
         min="1"
         max="100"
         placeholder="10"
-        className="hover:appearance-none appearance-none w-9 h-6 rounded bg-gray-200 placeholder:text-gray-100 placeholder:text-sm required outline-0 
+        className="hover:appearance-none appearance-none w-8.5 h-6 rounded bg-gray-200 placeholder:text-gray-100 placeholder:text-sm required outline-0 
 border border-transparent focus:border-cyan leading-4  text-center text-sm
 "
       />

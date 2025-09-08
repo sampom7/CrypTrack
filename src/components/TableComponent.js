@@ -82,7 +82,7 @@ const TableComponent = () => {
                       className="text-center text-base border-b border-gray-100  hover:bg-gray-200 last:border-b-0"
                     >
                       <td className="py-4 uppercase flex items-center">
-                        <SaveBtn data={data} />
+                        {/* <SaveBtn data={data} /> */}
                         <img
                           src={data.image}
                           alt={data.id}
@@ -181,7 +181,7 @@ const TableComponent = () => {
       </div>
       <div className="flex md:flex-row flex-col items-center justify-between  mt-4 capitalize h-[2rem] ">
         <span>
-          Data provided by{" "}
+          Data sourced from{" "}
           <a
             className="text-cyan"
             href="https://www.coingecko.com"
