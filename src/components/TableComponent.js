@@ -63,7 +63,7 @@ const TableComponent = () => {
           <table className="w-full table-auto">
             <thead className="capitalize text-base text-gray-100 font-medium border-b border-gray-100 ">
               <tr>
-                <th className="py-1 ">asset</th>
+                <th className="py-1 ">cryptocurrency</th>
                 <th className="py-1 sm:table-cell hidden">name</th>
                 <th className="py-1">price</th>
                 <th className="py-1 md:table-cell hidden">total volume</th>

@@ -25,7 +25,6 @@ const Filters = () => {
    flex lg:flex-row
     flex-col lg:items-center lg:justify-between relative
     align-start justify-between
-
     "
     >
       <Search />
@@ -61,7 +60,7 @@ const Filters = () => {
           htmlFor="sortby"
           className="relative flex sm:justify-center justify-start items-center mt-4 sm:mt-0"
         >
-          <span className="mr-2 sm:font-bold font-medium sm:text-base text-sm w-16">
+          <span className="mr-2 sm:font-bold font-medium sm:text-base text-sm w-22">
             Currency:{" "}
           </span>
           <select
@@ -99,7 +98,7 @@ const Filters = () => {
           <img
             src={selectIcon}
             alt="CrypTrack"
-            className="w-[1rem] absolute right-1 top-2 pointer-events-none"
+            className="w-[1rem] absolute right-1.5 top-3 pointer-events-none"
           />
         </label>
 
@@ -107,7 +106,7 @@ const Filters = () => {
           htmlFor="sortby"
           className="relative flex sm:justify-center justify-start items-center mt-4 sm:mt-0"
         >
-          <span className="mr-2 sm:font-bold font-medium sm:text-base text-sm w-16">
+          <span className="mr-2 sm:font-bold font-medium sm:text-base text-sm w-18 whitespace-nowrap">
             Sort by:{" "}
           </span>
           <select
@@ -145,7 +144,7 @@ const Filters = () => {
           <img
             src={selectIcon}
             alt="CrypTrack"
-            className="w-[1rem] absolute right-1 top-2 pointer-events-none"
+            className="w-[1rem] absolute right-1.5 top-3 pointer-events-none"
           />
         </label>
         <button
