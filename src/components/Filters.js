@@ -62,7 +62,7 @@ const Filters = () => {
           className="relative flex sm:justify-center justify-start items-center mt-4 sm:mt-0"
         >
           <span className="mr-2 sm:font-bold font-medium sm:text-base text-sm w-16">
-            sort by:{" "}
+            Currency:{" "}
           </span>
           <select
             name="sortby"
@@ -71,29 +71,29 @@ const Filters = () => {
             "
             onClick={handleCurrencySubmit}
           >
-            <option className="sm:text-base text-sm" value="inr">
-              inr
-            </option>
             <option className="sm:text-base text-sm" value="usd">
-              usd
-            </option>
-            <option className="sm:text-base text-sm" value="eur">
-              eur
-            </option>
-            <option className="sm:text-base text-sm" value="jpy">
-              jpy
+              USD
             </option>
             <option className="sm:text-base text-sm" value="aud">
-              aud
+              AUD
             </option>
             <option className="sm:text-base text-sm" value="cad">
-              cad
+              CAD
             </option>
             <option className="sm:text-base text-sm" value="chf">
-              chf
+              CHF
+            </option>
+            <option className="sm:text-base text-sm" value="eur">
+              EUR
+            </option>
+            <option className="sm:text-base text-sm" value="inr">
+              INR
+            </option>
+            <option className="sm:text-base text-sm" value="jpy">
+              JPY
             </option>
             <option className="sm:text-base text-sm" value="nzd">
-              nzd{" "}
+              NZD{" "}
             </option>
           </select>
           <img
@@ -108,7 +108,7 @@ const Filters = () => {
           className="relative flex sm:justify-center justify-start items-center mt-4 sm:mt-0"
         >
           <span className="mr-2 sm:font-bold font-medium sm:text-base text-sm w-16">
-            sort by:{" "}
+            Sort by:{" "}
           </span>
           <select
             name="sortby"
@@ -117,29 +117,29 @@ const Filters = () => {
             "
             onClick={handleSort}
           >
-            <option className="sm:text-base text-sm" value="market_cap_desc">
-              market cap desc
-            </option>
-            <option className="sm:text-base text-sm" value="market_cap_asc">
-              market cap asc
-            </option>
-            <option className="sm:text-base text-sm" value=" volume_desc">
-              volume desc
-            </option>
-            <option className="sm:text-base text-sm" value="volume_asc">
-              volume asc
+            <option className="sm:text-base text-sm" value="id_ascc">
+              id asc
             </option>
             <option className="sm:text-base text-sm" value="id_desc">
               id desc
             </option>
-            <option className="sm:text-base text-sm" value="id_ascc">
-              id asc
+            <option className="sm:text-base text-sm" value="market_cap_asc">
+              market cap asc
             </option>
-            <option className="sm:text-base text-sm" value="gecko_desc">
-              gecko desc
+            <option className="sm:text-base text-sm" value="market_cap_desc">
+              market cap desc
+            </option>
+            <option className="sm:text-base text-sm" value="volume_asc">
+              volume asc
+            </option>
+            <option className="sm:text-base text-sm" value=" volume_desc">
+              volume desc
             </option>
             <option className="sm:text-base text-sm" value="gecko_asc">
-              gecko asc{" "}
+              gecko asc
+            </option>
+            <option className="sm:text-base text-sm" value="gecko_desc">
+              gecko desc{" "}
             </option>
           </select>
           <img
