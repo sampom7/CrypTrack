@@ -2,11 +2,9 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
-  return null;
-  {
-    /*(
+  return (
     <nav
-      className="lg:w-[40%] sm:w-[80%] w-[90%] flex justify-around align-middle lg:mt-16
+      className="hidden lg:w-[40%] sm:w-[80%] w-[90%] flex justify-around align-middle lg:mt-16
     sm:mt-24 mt-20
      border border-solid border-cyan sm:rounded-lg rounded-md"
     >
@@ -58,8 +56,7 @@ const Navigation = () => {
         saved
       </NavLink>
     </nav>
-  );  */
-  }
+  );
 };
 
 export default Navigation;
