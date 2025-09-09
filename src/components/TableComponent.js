@@ -31,7 +31,7 @@ const SaveBtn = ({ data }) => {
       onClick={(e) => handleClick(e, data.id)}
     >
       <svg
-        className={`w-[1.5rem] ml-1.5 ${
+        className={`hidden w-[1.5rem] ml-1.5 ${
           allCoins.includes(data.id) ? "fill-cyan" : "fill-gray-100"
         } hover:fill-cyan`}
         width="30"
@@ -86,7 +86,7 @@ const TableComponent = () => {
                         <img
                           src={data.image}
                           alt={data.id}
-                          className="hidden w-[1.2rem] h-[1.2rem] mx-1.5"
+                          className="w-[1.2rem] h-[1.2rem] mx-1.5"
                         />
                         <Link to={`/${data.id}`} className="cursor-pointer">
                           {data.symbol}
