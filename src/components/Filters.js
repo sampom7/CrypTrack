@@ -106,7 +106,7 @@ const Filters = () => {
           htmlFor="sortby"
           className="relative flex sm:justify-center justify-start items-center mt-4 sm:mt-0"
         >
-          <span className="mr-1 ml-3 sm:font-bold font-medium sm:text-base text-sm w-18 whitespace-nowrap">
+          <span className="mr-2 sm:font-bold font-medium sm:text-base text-sm w-18 whitespace-nowrap">
             Sort by:{" "}
           </span>
           <select

@@ -82,7 +82,7 @@ const TableComponent = () => {
                       className="text-center text-base border-b border-gray-100  hover:bg-gray-200 last:border-b-0"
                     >
                       <td className="py-4 uppercase flex items-center">
-                        {/* <SaveBtn data={data} /> */}
+                        <SaveBtn data={data} />
                         <img
                           src={data.image}
                           alt={data.id}
