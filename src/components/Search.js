@@ -102,7 +102,7 @@ const Search = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative mt-10">
       <SearchInput handleSearch={handleSearch} />
     </div>
   );
