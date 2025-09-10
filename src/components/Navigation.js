@@ -8,9 +8,7 @@ const Navigation = () => {
     sm:mt-24 mt-20
      border border-solid border-cyan sm:rounded-lg rounded-md"
     >
-      <span className="text-white text-lg">CrypTrack</span>
-
-      {/* <NavLink
+      <NavLink
         to="/"
         className={({
           isActive,
@@ -56,7 +54,7 @@ const Navigation = () => {
       `}
       >
         saved
-      </NavLink> */}
+      </NavLink>
     </nav>
   );
 };
