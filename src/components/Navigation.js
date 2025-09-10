@@ -4,11 +4,13 @@ import { NavLink } from "react-router-dom";
 const Navigation = () => {
   return (
     <nav
-      className="hidden lg:w-[40%] sm:w-[80%] w-[90%] flex justify-around align-middle lg:mt-16
+      className="lg:w-[40%] sm:w-[80%] w-[90%] flex justify-around align-middle lg:mt-16
     sm:mt-24 mt-20
      border border-solid border-cyan sm:rounded-lg rounded-md"
     >
-      <NavLink
+      <span className="text-white text-lg">CrypTrack</span>
+
+      {/* <NavLink
         to="/"
         className={({
           isActive,
@@ -54,7 +56,7 @@ const Navigation = () => {
       `}
       >
         saved
-      </NavLink>
+      </NavLink> */}
     </nav>
   );
 };

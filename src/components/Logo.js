@@ -11,7 +11,7 @@ const Logo = () => {
       sm:text-lg text-md"
     >
       <img src={logoSvg} alt="CrypTrack" className="w-[10%] h-auto" />
-      <span className="text-white">CrypTrack</span>
+      {/* <span className="text-white text-lg">CrypTrack</span> */}
     </Link>
   );
 };
