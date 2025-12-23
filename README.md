@@ -1,6 +1,3 @@
-![Logo](https://raw.githubusercontent.com/sampom7/CrypTrack/7ba4af496fca3ba6a8f32d18881599dfe7599fe5/src/assets/Group.svg)
-
-
 # CrypTrack
 
 A responsive React application for real-time cryptocurrency data display, featuring API integration, advanced search, sorting options, and customizable charts using Chart.js for enhanced data exploration.
@@ -20,6 +17,11 @@ A responsive React application for real-time cryptocurrency data display, featur
 **Server:** Firebase, Node.js
 
 **APIs & Data:** CoinGecko
+
+
+
+![Logo](https://raw.githubusercontent.com/sampom7/CrypTrack/7ba4af496fca3ba6a8f32d18881599dfe7599fe5/src/assets/Group.svg)
+
 
 
 ## My Links
