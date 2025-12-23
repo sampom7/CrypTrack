@@ -25,11 +25,7 @@ A responsive React application for real-time cryptocurrency data display, featur
 
 
 ## My Links
-[![resume](https://img.shields.io/badge/My_Resume-000?style=for-the-badge&logo=user&logoColor=white)](https://drive.google.com/file/d/1amq_ziOHfslXoYiBxCJn0WbUhlyJs5_j/view?usp=sharing)
-
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=black)](https://www.linkedin.com/in/sampom7/)
-
-[![github](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logoColor=white)](https://github.com/sampom7)
+[![resume](https://img.shields.io/badge/My_Resume-000?style=for-the-badge&logo=user&logoColor=white)](https://drive.google.com/drive/folders/1h-aEp0L1I-WEQ0i75ier-M3xQdIOM_dP?usp=sharing) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=black)](https://www.linkedin.com/in/sampom7/) [![github](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logoColor=white)](https://github.com/sampom7)
 
 
 ## License
